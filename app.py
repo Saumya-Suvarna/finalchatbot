@@ -162,8 +162,8 @@ def webhook():
 
 def api_ai_analysis(message):
 
-    CLIENT_ACCESS_TOKEN = 'f2c3166a316843ca95e399a19333c873'
-    ai = apiai.ApiAI('31df623f4c1846209c287dc9e8f36a2e')
+    CLIENT_ACCESS_TOKEN = '20d6608f15444e52a123a644959f157a'
+    ai = apiai.ApiAI('4db4733e1a1e4f8d882ba4e274178aa0')
     request = ai.text_request()
     request.lang = 'en'  # optional, default value equal 'en'
     request.query = message
@@ -178,8 +178,8 @@ def api_ai_analysis(message):
 
 def api_ai_filled(message):
 
-    CLIENT_ACCESS_TOKEN = 'f2c3166a316843ca95e399a19333c873'
-    ai = apiai.ApiAI('31df623f4c1846209c287dc9e8f36a2e')
+    CLIENT_ACCESS_TOKEN = '20d6608f15444e52a123a644959f157a'
+    ai = apiai.ApiAI('4db4733e1a1e4f8d882ba4e274178aa0')
     request = ai.text_request()
     request.lang = 'en'  # optional, default value equal 'en'
     request.query = message
